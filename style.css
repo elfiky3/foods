@@ -157,3 +157,11 @@ del{
     margin-right: 5px;
 }
 
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

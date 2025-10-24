@@ -165,3 +165,61 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1200px) {
+    .hotel {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .hotel {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    nav .c { 
+        font-size: 24px;
+    }
+    nav .a { 
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+    }
+    nav{
+        height: 20vh
+    }
+    nav .b {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    nav .a { 
+        margin-right: 0;
+    }
+
+    .hotel {
+        grid-template-columns: 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .offers {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+    
+    .body h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .body p {
+        font-size: 16px;
+    }
+}
